@@ -9,7 +9,7 @@ let electionDay = new Date(2018,10,6).getTime();
 
 
 let diffDays =(electionDay - today)/(oneDay);
-	diffDays == diffDays < 0 ? 0 : diffDays;
+	diffDays = diffDays < 0 ? 0 : diffDays;
 let dayText1 = diffDays == 1 ? 'is' : 'are';
 let dayText2 = diffDays == 1 ? 'day' : 'days';
 
